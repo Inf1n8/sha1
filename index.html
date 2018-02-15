@@ -1,0 +1,49 @@
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+<div class="row">
+    <div class="col s12">
+        <svg viewBox="0 0 960 200">
+            <symbol id="s-text">
+                <text text-anchor="middle" x="50%" y="80%">SHA-1</text>
+            </symbol>
+
+            <g class="g-ants">
+                <use xlink:href="#s-text" class="text-copy"></use>
+                <use xlink:href="#s-text" class="text-copy"></use>
+                <use xlink:href="#s-text" class="text-copy"></use>
+                <use xlink:href="#s-text" class="text-copy"></use>
+                <use xlink:href="#s-text" class="text-copy"></use>
+            </g>
+        </svg>
+    </div>
+</div>
+<div class="row">
+    <div class="col s12 m6 push-m3">
+        <div class="input-field col s6">
+            <input id="string" type="text" class="validate">
+            <label for="string">Enter text:</label>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col s12 m2 push-m3">
+        <a class="waves-effect waves-light btn" id="btn">Hash</a>
+    </div>
+</div>
+<div class="row">
+    <div class="col s12 m6 push-m3">RESULT:</div>
+</div>
+<div class="row">
+    <div class="col s12 m6 push-m3">
+        <textarea id="hashed"></textarea>
+    </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
