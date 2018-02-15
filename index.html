@@ -2,6 +2,7 @@
 <head>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
     <link rel="stylesheet" type="text/css" href="style.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 <div class="row">
@@ -21,8 +22,9 @@
         </svg>
     </div>
 </div>
+<div id="cont">
 <div class="row">
-    <div class="col s12 m6 push-m3">
+    <div class="col s9 push-s3 m6 push-m3">
         <div class="input-field col s6">
             <input id="string" type="text" class="validate">
             <label for="string">Enter text:</label>
@@ -30,17 +32,18 @@
     </div>
 </div>
 <div class="row">
-    <div class="col s12 m2 push-m3">
+    <div class="col s9 push-s3 m2 push-m3">
         <a class="waves-effect waves-light btn" id="btn">Hash</a>
     </div>
 </div>
 <div class="row">
-    <div class="col s12 m6 push-m3">RESULT:</div>
+    <div class="col s9 push-s3 m6 push-m3">RESULT:</div>
 </div>
 <div class="row">
-    <div class="col s12 m6 push-m3">
+    <div class="col s9 push-s3 m6 push-m3">
         <textarea id="hashed"></textarea>
     </div>
+</div>
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
